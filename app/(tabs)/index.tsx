@@ -22,8 +22,8 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Tome</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+          Edite <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> para ver as alterações.
+          Pressione{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
@@ -31,19 +31,19 @@ export default function HomeScreen() {
               web: 'F12'
             })}
           </ThemedText>{' '}
-          to open developer tools.
+          para abrir as ferramentas de desenvolvedor.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Ele gosta</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+        Toque na aba Explorar para saber mais sobre o que está incluído neste aplicativo inicial.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Cavalo</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
+          Quando estiver pronto, execute{' '}
           <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
           <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
