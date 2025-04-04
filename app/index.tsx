@@ -8,7 +8,9 @@ export default function HomeScreen() {
         <View>
             <Text>opa</Text>
             <Text>Contamento: {count}</Text>
-            <Button title = "Aumente" onPress={() => {}}/>
+            <Button title = "Aumente" onPress={() => {setCount(count + 1)}}/>
+            <Button title = "Diminua" onPress={() => {setCount(count - 1)}}/>
+            <Button title = "Reset" onPress={() => {setCount(0)}}/>
         </View>
 
     );
