@@ -20,7 +20,7 @@ export default function HomeScreen() {
             />
             <Button title = "Reset" onPress={() => {setCount(STARTVALUE)}}
             />
-            <CustomButtom title="Real"/>
+            <CustomButtom title="Real"/>;
         </View>
 
     );
