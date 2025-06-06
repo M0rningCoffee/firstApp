@@ -1,0 +1,12 @@
+useEffect((callable[]))
+
+useState monitora a mudança de estado dos valores
+
+useEffect monitora seus efeitos colaterais
+-Um efeito colateral pode ser entendido como a troca de valores 
+de uma var ou até um carregamento e renderização de um componente
+
+useEffect recebe dois parametros, uma função que será executada e
+um array de argumentos que terão seus efeitos colaterais monitorados.
+
+
