@@ -41,6 +41,13 @@ export default function Layout() {
           tabBarIcon: ({color, size}) => <Ionicons name="document-outline" size={size} color={color}></Ionicons>
         }}
       />
+        <Tabs.Screen
+        name="location"
+        options={{
+          title: "Local",
+          tabBarIcon: ({color, size}) => <Ionicons name="map-outline" size={size} color={color}></Ionicons>
+        }}
+      />
     </Tabs>
     
     
